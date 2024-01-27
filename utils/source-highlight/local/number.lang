@@ -1,3 +1,1 @@
-number = 
-'\<[+-]?((0x[[:xdigit:]]+)|(([[:digit:]]*\.)?
-[[:digit:]]+([eE][+-]?[[:digit:]]+)?))u?((int(?:8|16|32|64))|L)?\>'
+/usr/share/source-highlight/number.lang

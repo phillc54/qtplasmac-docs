@@ -1,2 +1,1 @@
-vardef FUNCTION = '([[:alpha:]]|_)[[:word:]]*(?=[[:blank:]]*\()'
-function = $FUNCTION
+/usr/share/source-highlight/function.lang

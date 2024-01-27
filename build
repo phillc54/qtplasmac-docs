@@ -3,7 +3,7 @@
 echo -e '\nbuilding qtplasmac.html'
 
 asciidoc \
--f utils/source-highlight/linuxcnc.conf \
+-f utils/source-highlight/emc-langs-source-highlight.conf \
 -a 'source_highlight_dir=utils/source-highlight/local' \
 -a linkcss \
 -a 'scriptsdir=utils/scripts' \

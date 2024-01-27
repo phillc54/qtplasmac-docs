@@ -1,3 +1,1 @@
-# this contains comment definitions for scripting languages, perl, bash, etc.
-
-comment start "#"
+/usr/share/source-highlight/script_comment.lang
