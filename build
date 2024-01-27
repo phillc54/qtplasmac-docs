@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo -e '\nbuilding qtplasmac.html'
+
+asciidoc \
+-f utils/source-highlight/linuxcnc.conf \
+-a 'source_highlight_dir=utils/source-highlight/local' \
+-a linkcss \
+-a 'scriptsdir=utils/scripts' \
+-a 'stylesdir=utils/styles' \
+-a stylesheet=linuxcnc.css \
+qtplasmac.adoc
+
+echo 'done...'
